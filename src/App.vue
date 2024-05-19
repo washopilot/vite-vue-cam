@@ -6,7 +6,7 @@ const showModal = ref(false)
 </script>
 
 <template>
-    <v-container class="full-height-container fill-height d-flex justify-center align-center">
+    <v-container class="h-screen fill-height d-flex justify-center align-center">
         <v-col>
             <v-row align="center" justify="center">
                 <div>
@@ -34,9 +34,6 @@ const showModal = ref(false)
 </template>
 
 <style scoped>
-.full-height-container {
-    min-height: 100vh;
-}
 .logo {
     height: 6em;
     padding: 1.5em;
